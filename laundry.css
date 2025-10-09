@@ -1,4 +1,62 @@
-h1 {
-  color: lightcoral;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLinks {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+.Username {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(11, 242, 207);
+  text-decoration: none;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.anchor {
+  color: rgb(64, 206, 245);
+}
+button {
+  margin: 20px;
+  padding: 20px;
+  background: rgb(1, 236, 248);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+}
+.left {
+  margin: 50px;
+  padding: 10px;
+}
+p {
+  display: block;
+  width: 40%;
+  text-justify: auto;
+}
+.right img {
+  padding: 0 20px;
 }
